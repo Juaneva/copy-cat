@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ----- Feb 2022 ----- */
+
+.aem-Grid .cmp-layout-container--banner-container {
+	padding: 0px;
+	background: linear-gradient(120deg, #1BB1AA 65%, #FF4219 60%);
+	max-width: 100% !important;
+	position: relative;
+}
+
+@media (min-width: 320px) {
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image img {
+		position: relative;
+		width: 120% !important;
+		max-width: unset;
+		bottom: -15%;
+		left: -10%;
+		margin-left: unset;
+		top: auto;
+		margin: 0 auto !important;
+	}
+	.cmp-layout-container--banner-container .cmp-text h2 {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.cmp-layout-container--banner-container .cmp-text h2 {
+		text-align: initial;
+	}
+	.responsivegrid.cmp-layout-container--banner-container .image.cmp-header-banner-image {
+		position: absolute;
+		top: 10%;
+		left: 0;
+		overflow: visible;
+	}
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image .cmp-image img {
+		position: relative;
+		max-width: unset;
+		right: 0% !important;
+		margin-left: auto !important;
+		z-index: 10;
+		width: 60% !important;
+		top: -8%;
+		bottom: auto;
+		left: auto;
+		margin-right: 0 !important;
+		float: right;
+	}
+	div.cmp-layout-container--banner-container > .aem-Grid > .responsivegrid {
+		padding-top: 20px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image .cmp-image img {
+		position: relative;
+		max-width: unset;
+		right: 0% !important;
+		margin-left: auto !important;
+		z-index: 10;
+		width: 50% !important;
+		top: -40px;
+		bottom: unset;
+		left: auto;
+		margin-right: 0 !important;
+		float: right;
+	}
+	.aem-Grid .cmp-layout-container--banner-container > .aem-Grid > .responsivegrid {
+		margin-left: 0 !important;
+		width: 60% !important;
+		position: relative;
+		top: 0em;
+	}
+		.cmp-layout-container--banner-container > .aem-Grid > div.responsivegrid > div.aem-Grid {
+			position: relative;
+			margin-left: 0;
+			width: 100%;
+		}
+}
+
+@media (min-width: 1280px) {
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image .cmp-image img {
+		position: relative;
+		max-width: unset;
+		right: 0% !important;
+		margin-left: auto !important;
+		z-index: 10;
+		width: 50% !important;
+		top: -8%;
+		bottom: auto;
+		left: auto;
+		margin-right: 0 !important;
+		float: right;
+	}
+}
+
+@media (min-width: 1440px) {
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image .cmp-image img {
+		position: relative;
+		max-width: unset;
+		right: 5% !important;
+		margin-left: auto !important;
+		z-index: 10;
+		width: 50% !important;
+		top: -8%;
+		bottom: auto;
+		left: auto;
+		margin-right: 0 !important;
+		float: right;
+	}
+	.cmp-layout-container--banner-container > .aem-Grid > div.responsivegrid > div.aem-Grid {
+		position: relative;
+		top: 20%;
+		margin-left: 8.333%;
+		width: 80%;
+	}
+	.aem-Grid .cmp-layout-container--banner-container > .aem-Grid > .responsivegrid {
+		top: 2em;
+	}
+}
+
+@media (min-width: 1900px) {
+	.responsivegrid.cmp-layout-container--banner-container .aem-Grid .cmp-header-banner-image .cmp-image img {
+		position: relative;
+		max-width: 900px;
+		right: 10% !important;
+		margin-left:  auto !important;
+		z-index: 10;
+		width: 45% !important;
+		top: -20px;
+		bottom: auto;
+		left: unset;
+		margin-right: 0 !important;
+		float: right;
+	}
+	.aem-Grid .cmp-layout-container--banner-container > .aem-Grid > .responsivegrid {
+		top: 6em;
+	}
+}
+
+
+@media (min-width: 320px) {
+	.cmp-layout-container--banner-container {
+		margin-bottom: 4% !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.cmp-layout-container--banner-container {
+		margin-bottom: 2% !important;
+	}
+    .cmp-layout-container--banner-about .image.cmp-header-banner-image {
+        top: auto !important;
+        bottom: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cmp-layout-container--banner-about .image.cmp-header-banner-image {
+        top:0% !important;
+    }
+}
+
+/* ----- Xtra Savings XF header ----- */
+
+.cmp-layout-container--xtrasavings {
+	background-image: url(/content/dam/checkersSixty60/header-banner/xs-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0 !important;
+	margin-bottom: 100px;
+}
+.cmp-layout-container--xtrasavings .cmp-title__text {
+	font-size: 34px;
+	line-height: 38px;
+}
+.cmp-layout-container--xtrasavings .cmp-title__text {
+  	padding: 30px 12px 0;
+  	font-size: 34px;
+	line-height: 38px;
+}
+
+@media (max-width: 768px) {
+	.cmp-layout-container--xtrasavings > .aem-Grid {
+		display: flex;
+		flex-direction: column;
+	}
+	.cmp-layout-container--xtrasavings > .aem-Grid > div:first-child {
+		order: 2;
+	}
+	.cmp-layout-container--xtrasavings > .aem-Grid > div:last-child {
+		order: 1;
+		margin-top: 30px;
+	}
+	.cmp-layout-container--xtrasavings {
+		padding: 0;
+	}
+	.cmp-layout-container--xtrasavings .cmp-title h1 {
+		margin-top: 0;
+	}
+	.cmp-layout-container--xtrasavings .cmp-title__text {
+		padding: 12px 0;
+		text-align: center;
+	}
+	.cmp-layout-container--xtrasavings .button.cmp-button--primary {
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	.cmp-layout-container--xtrasavings .button.cmp-button--primary .cmp-button {
+		float: none;
+	}
+	
+}
+
+
